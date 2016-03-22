@@ -2688,9 +2688,9 @@ var bibtexify = (function($) {
             'incollection': '',
             'inproceedings': 'In Proceedings',
             'manual': 'Manual',
-            'mastersthesis': 'Thesis',
+            'mastersthesis': 'MS Thesis',
             'misc': 'Patent',
-            'phdthesis': 'Thesis/Dissertation',
+            'phdthesis': 'PhD Dissertation',
             'proceedings': 'Conference proceeding',
             'techreport': 'Technical report',
             'unpublished': 'Unpublished'}
