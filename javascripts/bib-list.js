@@ -2690,7 +2690,7 @@ var bibtexify = (function($) {
             'manual': 'Manual',
             'mastersthesis': 'Thesis',
             'misc': 'Patent',
-            'phdthesis': 'PhD Thesis',
+            'phdthesis': 'Thesis/Dissertation',
             'proceedings': 'Conference proceeding',
             'techreport': 'Technical report',
             'unpublished': 'Unpublished'}
