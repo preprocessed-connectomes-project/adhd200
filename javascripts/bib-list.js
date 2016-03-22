@@ -2686,7 +2686,7 @@ var bibtexify = (function($) {
             'conference': 'Talk',
             'inbook': 'Book chapter',
             'incollection': '',
-            'inproceedings': 'Abstract',
+            'inproceedings': 'In Proceedings',
             'manual': 'Manual',
             'mastersthesis': 'Thesis',
             'misc': 'Misc',
