@@ -2692,7 +2692,7 @@ var bibtexify = (function($) {
             'misc': 'Patent',
             'phdthesis': 'PhD Dissertation',
             'proceedings': 'Conference proceeding',
-            'techreport': 'Technical report',
+            'techreport': 'arXiv',
             'unpublished': 'Unpublished'}
     };
     // format a phd thesis similarly to masters thesis
