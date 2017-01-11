@@ -171,12 +171,12 @@ img {
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    
+
     -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
     -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
 }
-    
+
 p img {
   display: block;
   margin: 0 auto 0 auto;
@@ -278,9 +278,9 @@ td {
   padding: 10px;
   border: 1px solid #373737;
  }
- 
+
  */
-/* 
+/*
 form {
   background: #f2f2f2;
   padding: 20px;
@@ -301,7 +301,7 @@ Full-Width Styles
 }
 
 #container {
-    
+
       /*background: #2d1318;*/
       background: #333;
       /*min-height: 595px;*/
@@ -320,7 +320,7 @@ Full-Width Styles
 }
 
 #container_box {
-    
+
       /*background: #FFF;*/
       /*min-height: 595px;*/
 
@@ -896,7 +896,7 @@ Small Device Styles
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
-  
+
   #cssmenu .submenu-button {
     position: absolute;
     z-index: 99;
@@ -911,13 +911,13 @@ Small Device Styles
   #cssmenu .submenu-button.submenu-opened {
     background: #262626;
   }
-  
- 
+
+
   #cssmenu ul ul .submenu-button {
     height: 34px;
     width: 34px;
   }
-  
+
 
   #cssmenu .submenu-button:after {
     position: absolute;
@@ -969,16 +969,18 @@ span.undefined { color:red; }
 .inbook { background-color: #eaa; }
 .phdthesis { background-color: #19398a; }
 .unpublished { background-color: #eae; }
+.patent { background-color: #eae; }
 .mastersthesis { background-color: #00c4d9; }
 .techreport { background-color: #ffd457; }
+.preprint { background-color: #ffd457; }
 .legend .pub { width: 10px; height: 10px; display: inline-block; margin: 0 5px 0 15px;}
 .legend { margin-bottom: 20px; text-align: center; width: 100%;}
-table.display thead th { 
-    padding: 3px 18px 3px 10px; 
-    border-bottom: 1px solid black; 
-    border-top: 1px solid black; 
+table.display thead th {
+    padding: 3px 18px 3px 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
     font-weight: bold; c
-    cursor: pointer; 
+    cursor: pointer;
     cursor: hand;
     background: #eee; }
 table.display tfoot th { padding: 3px 10px; border-top: 1px solid black; font-weight: bold; }
@@ -998,12 +1000,12 @@ div.bibinfo { width: 80%; position: fixed; top: 100px; left: 10%; background-col
 a.bibclose { background-color: #BBBBBB; border: 3px solid #FFFFFF; color: black; float: left; font-size: 20px; height: 20px; left: -25px; line-height: 20px; padding: 3px; position: relative; text-align: center; text-decoration: none; top: -25px; width: 20px; -moz-border-radius:15px; -webkit-border-radius:15px; -o-border-radius:15px; border-radius:15px; }
 div.bibinfo pre { clear:both; }
 
-table.display2 thead th { 
-    padding: 3px 18px 3px 10px; 
-    /*border-bottom: 1px solid black; 
+table.display2 thead th {
+    padding: 3px 18px 3px 10px;
+    /*border-bottom: 1px solid black;
     border-top: 1px solid black;*/
     font-weight: bold; c
-    cursor: pointer; 
+    cursor: pointer;
     cursor: hand;
     background: #cd1d00;
     color: #fff; }
