@@ -469,20 +469,20 @@ year = {2013},
 mendeley-tags = {Data Science}
 }
 
-@preprint{Li2013,
-abstract = {Large-scale neuroimaging studies have been collecting brain images of study individuals, which take the form of two-dimensional, three-dimensional, or higher dimensional arrays, also known as tensors. Addressing scientific questions arising from such data demands new regression models that take multidimensional arrays as covariates. Simply turning an image array into a long vector causes extremely high dimensionality that compromises classical regression methods, and, more seriously, destroys the inherent spatial structure of array data that possesses wealth of information. In this article, we propose a family of generalized linear tensor regression models based upon the Tucker decomposition of regression coefficient arrays. Effectively exploiting the low rank structure of tensor covariates brings the ultrahigh dimensionality to a manageable level that leads to efficient estimation. We demonstrate, both numerically that the new model could provide a sound recovery of even high rank signals, and asymptotically that the model is consistently estimating the best Tucker structure approximation to the full array model in the sense of Kullback-Liebler distance. The new model is also compared to a recently proposed tensor regression model that relies upon an alternative CANDECOMP/PARAFAC (CP) decomposition.},
-archivePrefix = {arXiv},
-arxivId = {1304.5637},
-author = {Li, Xiaoshan and Zhou, Hua and Li, Lexin},
-eprint = {1304.5637},
-journal = {ArXiv e-prints},
-keywords = {arxiv},
-mendeley-tags = {Data Science},
-month = {apr},
-title = {{Tucker Tensor Regression and Neuroimaging Analysis}},
-url = {http://arxiv.org/abs/1304.5637},
-year = {2013}
+@article{Li2018,
+  doi = {10.1007/s12561-018-9215-6},
+  url = {https://doi.org/10.1007/s12561-018-9215-6},
+  year = {2018},
+  month = mar,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {10},
+  number = {3},
+  pages = {520--545},
+  author = {Xiaoshan Li and Da Xu and Hua Zhou and Lexin Li},
+  title = {Tucker Tensor Regression and Neuroimaging Analysis},
+  journal = {Statistics in Biosciences}
 }
+
 @inproceedings{Kong2013,
 abstract = {Mining discriminative features for graph data has attracted much attention in recent years due to its important role in constructing graph classifiers, generating graph indices, etc. Most measurement of interestingness of discriminative subgraph features are defined on certain graphs, where the structure of graph objects are certain, and the binary edges within each graph represent the "presence" of linkages among the nodes. In many real-world applications, however, the linkage structure of the graphs is inherently uncertain. Therefore, existing measurements of interestingness based upon certain graphs are unable to capture the structural uncertainty in these applications effectively. In this paper, we study the problem of discriminative subgraph feature selection from uncertain graphs. This problem is challenging and different from conventional subgraph mining problems because both the structure of the graph objects and the discrimination score of each subgraph feature are uncertain. To address these challenges, we propose a novel discriminative subgraph feature selection method, DUG, which can find discriminative subgraph features in uncertain graphs based upon different statistical measures including expectation, median, mode and phi-probability. We first compute the probability distribution of the discrimination scores for each subgraph feature based on dynamic programming. Then a branch-and-bound algorithm is proposed to search for discriminative subgraphs efficiently. Extensive experiments on various neuroimaging applications (i.e., Alzheimer's Disease, ADHD and HIV) have been performed to analyze the gain in performance by taking into account structural uncertainties in identifying discriminative subgraph features for graph classification.},
 address = {Philadelphia, PA},
@@ -512,7 +512,7 @@ title = {{DuSK: A Dual Structure-preserving Kernel for Supervised Tensor Learnin
 url = {http://epubs.siam.org/doi/abs/10.1137/1.9781611973440.15},
 year = {2013}
 }
-@preprint{Dey2013,
+@patent{Dey2013,
 abstract = {Systems and methods for processing image data are provided. A computer implemented method for processing image data, comprises gathering 4-D image data from a subject, extracting time series data, and spatial and degree data of each voxel of the subject, deriving at least one feature from the time series data, deriving at least one feature from the spatial and degree data, combining the at least one feature from the time series data, and the at least one feature from the spatial and degree data to generate combined data, and inputting the combined data to a classifier, wherein the classifier outputs a classification based on the combined data.},
 author = {Dey, Soumyabrata and Rao, Ravishankar and Shah, Mubarak and Solmaz, Berkan},
 keywords = {patent},
@@ -755,9 +755,10 @@ eprint = {1501.07815},
 file = {:Users/cameron.craddock/Documents/papers/Li, Zhang - 2015 - Parsimonious Tensor Response Regression.pdf:pdf},
 journal = {ArXiv e-prints},
 title = {{Parsimonious Tensor Response Regression}},
-year = {2015}
+year = {2015},
+url = {https://arxiv.org/abs/1501.07815}
 }
-}
+
 @article{Kyeong2015,
 abstract = {BACKGROUND: Attention-deficit/hyperactivity disorder (ADHD) is currently diagnosed by a diagnostic interview, mainly based on subjective reports from parents or teachers. It is necessary to develop methods that rely on objectively measureable neurobiological data to assess brain-behavior relationship in patients with ADHD. We investigated the application of a topological data analysis tool, Mapper, to analyze the brain functional connectivity data from ADHD patients. METHODS: To quantify the disease severity using the neuroimaging data, the decomposition of individual functional networks into normal and disease components by the healthy state model (HSM) was performed, and the magnitude of the disease component (MDC) was computed. Topological data analysis using Mapper was performed to distinguish children with ADHD (n = 196) from typically developing controls (TDC) (n = 214). RESULTS: In the topological data analysis, the partial clustering results of patients with ADHD and normal subjects were shown in a chain-like graph. In the correlation analysis, the MDC showed a significant increase with lower intelligence scores in TDC. We also found that the rates of comorbidity in ADHD significantly increased when the deviation of the functional connectivity from HSM was large. In addition, a significant correlation between ADHD symptom severity and MDC was found in part of the dataset. CONCLUSIONS: The application of HSM and topological data analysis methods in assessing the brain functional connectivity seem to be promising tools to quantify ADHD symptom severity and to reveal the hidden relationship between clinical phenotypic variables and brain connectivity.},
 author = {Kyeong, Sunghyon and Park, Seonjeong and Cheon, Keun-Ah and Kim, Jae-Jin and Song, Dong-Ho and Kim, Eunjoo},
@@ -802,20 +803,21 @@ title = {{The Unsupervised Hierarchical Convolutional Sparse Auto-Encoder for Ne
 url = {http://link.springer.com/10.1007/978-3-319-23344-4{\_}16},
 year = {2015}
 }
-@preprint{Fujita2015,
-abstract = {The global functional brain network (graph) is more suitable for characterizing brain states than local analysis of the connectivity of brain regions. Therefore, graph-theoretic approaches are the natural methods to study the brain. However, conventional graph theoretical analyses are limited due to the lack of formal statistical methods for estimation and inference for random graphs. For example, the concept of correlation between two vectors of graphs is yet not defined. The aim of this article to introduce a notion of correlation between graphs. In order to develop a framework to infer correlation between graphs, we assume that they are generated by mathematical models and that the parameters of the models are our random variables. Then, we define that two vectors of graphs are independent whether their parameters are independent. The problem is that, in real world, the model is rarely known, and consequently, the parameters cannot be estimated. By analyzing the graph spectrum, we showed that the spectral radius is highly associated with the parameters of the graph model. Based on it, we constructed a framework for correlation inference between graphs and illustrate our approach in a functional magnetic resonance imaging data composed of 814 subjects comprising 529 controls and 285 individuals diagnosed with autism spectrum disorder (ASD). Results show that correlations between default-mode and control, default-mode and somatomotor, and default-mode and visual sub-networks are higher ({\$}p<0.05{\$}) in ASD than in controls.},
-archivePrefix = {arXiv},
-arxivId = {1512.06830},
-author = {Fujita, Andr{\'{e}} and Takahashi, Daniel Yasumasa and Balardin, Joana Bisol and Sato, João Ricardo},
-eprint = {1512.06830},
-journal = {ArXiv e-prints},
-keywords = {arxiv},
-mendeley-tags = {Data Science},
-month = {dec},
-title = {{Correlation between graphs with an application to brain networks analysis}},
-url = {http://arxiv.org/abs/1512.06830},
-year = {2015}
+
+@article{FUJITA201776,
+title = {Correlation between graphs with an application to brain network analysis},
+journal = {Computational Statistics & Data Analysis},
+volume = {109},
+pages = {76-92},
+year = {2017},
+issn = {0167-9473},
+doi = {https://doi.org/10.1016/j.csda.2016.11.016},
+url = {https://www.sciencedirect.com/science/article/pii/S0167947316302900},
+author = {AndrÃ© Fujita and Daniel Yasumasa Takahashi and Joana Bisol Balardin and Maciel Calebe Vidal and JoÃ£o Ricardo Sato},
+keywords = {Network, Correlation, fMRI, Functional brain network, Autism},
+abstract = {The global functional brain network (graph) is more suitable for characterizing brain states than local analysis of the connectivity of brain regions. Therefore, graph-theoretic approaches are natural methods to use for studying the brain. However, conventional graph theoretical analyses are limited due to the lack of formal statistical methods of estimation and inference. For example, the concept of correlation between two vectors of graphs has not yet been defined. Thus, the introduction of a notion of correlation between graphs becomes necessary to better understand how brain sub-networks interact. To develop a framework to infer correlation between graphs, one may assume that they are generated by models and that the parameters of the models are the random variables. Then, it is possible to define that two graphs are independent when the random variables representing their parameters are independent. In the real world, however, the model is rarely known, and consequently, the parameters cannot be estimated. By analyzing the graph spectrum, it is shown that the spectral radius is highly associated with the parameters of the graph model. Based on this, a framework for correlation inference between graphs is constructed and the approach illustrated on functional magnetic resonance imaging data on 814 subjects comprising 529 controls and 285 individuals diagnosed with autism spectrum disorder (ASD). Results show that correlations between the default-mode and control, default-mode and somatomotor, and default-mode and visual sub-networks are higher in individuals with ASD than in the controls.}
 }
+
 @article{Deshpande2015,
 author = {Deshpande, Gopikrishna and Wang, Peng and Rangaprakash, D. and Wilamowski, Bogdan},
 doi = {10.1109/TCYB.2014.2379621},
@@ -1103,7 +1105,7 @@ keywords = "ADHD, Density clustering, Affinity propagation, Elastic net, Non-ima
   title={More similarities than differences between ADHD and ASD in functional brain connectivity},
   author={Bathelt, Joe and Caan, Matthan and Geurts, Hilde},
   year={2020},
-  publisher={PsyArXiv}
+  journal={PsyArXiv}
 }
 
 @article{zhang2020separated,
